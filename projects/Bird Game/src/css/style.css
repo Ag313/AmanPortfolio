@@ -10,8 +10,10 @@
   width: 500px;
   height: 500px;
   top: 20px;
-  left: 20px;
+  left: 370px;
+
 }
+
 
 .ladybird {
   position: relative;
@@ -28,7 +30,7 @@
 .control-buttons {
   position: relative;
   top: 40px;
-  left: 45px;
+  left: 390px;
   width: 450px;
 }
 
@@ -36,4 +38,15 @@
   font-size: 30px;
   width: 50px;
   margin: 5px;
+}
+
+
+.tittle{
+  text-align: center;
+  text-shadow: 1px 4px 3px grey;
+}
+.foot{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 1px 4px 3px grey;
 }

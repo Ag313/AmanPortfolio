@@ -158,8 +158,8 @@ const stepDown = () => {
   setTransform();
 };
 const home = () => {
-  yPos = 0;
   xPos = 0;
+  yPos = 0;
   setTransform();
 };
 upBtn.addEventListener('click', stepUp);
@@ -227,7 +227,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61100" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50838" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -47,8 +47,8 @@ const stepDown = () => {
 };
 
 const home = () => {
-  yPos = 0;
   xPos = 0;
+  yPos = 0;
   setTransform();
 };
 
