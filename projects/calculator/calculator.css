@@ -1,0 +1,83 @@
+h1{  
+    text-align: center;  
+    padding: 23px;  
+    background-color: skyblue;  
+    color: white;  
+    }  
+  
+#clear{  
+width: 70px;  
+border: 3px solid rgba(18, 2, 2, 0.448);  
+    border-radius: 3px;  
+    padding: -30px;  
+    background-color: rgb(234, 92, 92);  
+}  
+  
+.formstyle  
+{  
+width: 300px;  
+height: 530px;  
+margin: auto;  
+/* border: 3px solid rgb(213, 219, 223);   */
+border-radius: 5px;  
+padding: 20px;  
+background-color: rgba(238, 243, 242, 0.648);
+box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.882);
+}  
+  
+  
+  
+input  
+{  
+width: 20px;  
+background-color: burlywood;  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px;  
+}  
+  
+  
+.calce{  
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}  
+
+input  
+{  
+    box-shadow: 2px 2px 2px 2px black;
+width: 0px;  height: 20px;
+background-color: gray;  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 27px;  
+    margin: 5px;  
+    font-size: 20px; 
+     
+} 
+input:hover{
+    color: aquamarine;
+    box-shadow: 4px 4px 4px  plum;
+} 
+  
+  
+#calc{  
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto; 
+    background-color: black;
+    color: aliceblue; 
+}  
+  body{
+    background-color: rgba(1, 20, 27, 0.702);
+    background: url(./mathematics-1509559_1280.webp);
+
+  }

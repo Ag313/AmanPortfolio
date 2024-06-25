@@ -1,0 +1,101 @@
+.divixigo{
+    height: 300px;background-color: lightgoldenrodyellow;
+    box-shadow: 0 15px 15px lightcyan;
+    transition: width 5s, height 5s, transform 3s;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 50;
+    /* position: relative; */
+    /* animation: mymove 3s infinite; */
+
+}
+/* @keyframes mymove{
+    from {left: 0px;}
+  to {left: 1000px;} */
+/* } */
+@keyframes example {   
+    from {background-color: lightgoldenrodyellow}
+        to {background-color: rgb(250, 181, 91);}
+      
+}
+
+
+
+.divixigo:hover{
+width: 1000px;height: 300px;
+/* transform: rotate(180deg); */
+}
+.header2{
+    background-color:darkseagreen;
+    color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.span{
+    margin-top: 50px;margin-left: 50px;
+width: 50px; z-index: 1;position: absolute;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+/* h2:hover{
+    width: 150px; display: none;
+} */
+
+h2{
+    text-shadow: 1px 1px 2px black, 0 0 25px lawngreen, 0 0 5px lightsalmon;
+}
+
+
+/* FOOTER */
+footer{
+     bottom: 0;width: 100%;min-height: fit-content;
+    background-color: darkolivegreen;display: flex;justify-content: center;
+}
+footer h2{
+    color: white;
+}
+.row{
+    /* display: flex; flex: wrap; gap: 10px; */
+    margin-left: -300px;
+    list-style: none;
+}
+.container1{
+    width: 500px;display: flex;flex-direction: column;max-height: fit-content;
+}
+.icons{
+    display: flex;justify-content: center;gap: 10px;padding: 20px;
+cursor: pointer;font-size: 3rem;
+}
+.icons i{color: aliceblue;}
+
+.icons i:hover{color: pink;
+scale: 1.05;transition: 0.5s all ease-in-out;
+}
+footer ul{
+    margin-inline: 30px;color: aliceblue;
+    list-style: none;
+    display: block;justify-content: center;align-items: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+footer ul li a:hover{
+    color: pink;
+}
+/* @media screen and (max-width:490px){
+    .row{flex-direction: column;}
+} */
+    
