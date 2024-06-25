@@ -411,6 +411,8 @@ box-shadow: 5px 5px 20px lightslategray;
   .home__img {
     width: 200px;
     height: 400px;
+    margin-top: -100%;
+    margin-left: 55%;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
