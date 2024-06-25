@@ -380,12 +380,12 @@ box-shadow: 5px 5px 20px lightslategray;
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
-    row-gap: 2rem;
+    row-gap: 1rem;
   }
   .home__img {
     width: 100px;
     height: 300px;
-    bottom: 20%;
+  
   }
 }
 
@@ -515,7 +515,7 @@ box-shadow: 5px 5px 20px lightslategray;
   .home__img {
     width: 400px;
     height: 600px;
-    top: 30;
+    
   }
 }
 
